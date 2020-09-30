@@ -1,0 +1,8 @@
+{
+  "python.pythonPath": "bot-env/bin/python",
+  // cSpell
+  "cSpell.words": [
+    "loquita",
+    "viejita"
+  ],
+}
