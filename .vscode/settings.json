@@ -2,6 +2,8 @@
   "python.pythonPath": "bot-env/bin/python",
   // cSpell
   "cSpell.words": [
+    "dotenv",
+    "getenv",
     "loquita",
     "viejita"
   ],

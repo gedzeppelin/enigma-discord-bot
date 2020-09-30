@@ -1,3 +1,8 @@
+import os
+
+from pathlib import Path
+from dotenv import load_dotenv
+
 import discord
 import random
 import unidecode
@@ -28,4 +33,8 @@ async def on_message(message):
         await message.add_reaction("♥")
 
 
-client.run("NzU1OTU4OTY0MDI5NDg5MjA0.X2K3pg.BuPaClX3GYmKuLi2Umx5MOcjFJY")
+env_path = Path('.') / '.env'
+load_dotenv(dotenv_path=env_path)
+
+DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
+client.run(DISCORD_BOT_TOKEN)

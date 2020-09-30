@@ -1,3 +1,5 @@
 /bot-env
 /env
 /venv
+
+.env
